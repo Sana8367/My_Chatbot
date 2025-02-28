@@ -9,6 +9,7 @@ if "chat" not in st.session_state:
     st.session_state.chat = model.start_chat(history=[])
 
 st.title("Chatbot🤖 - Your Personal AI Assistant")
+st.write("Welcome to Chatbot! How can I help you?")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
